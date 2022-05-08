@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Sep  3 02:31:31 2021
+# Process ID: 19040
+# Current directory: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/threshold/xilinxprj/threshold.runs/synth_1
+# Command line: vivado.exe -log threshold.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source threshold.tcl
+# Log file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/threshold/xilinxprj/threshold.runs/synth_1/threshold.vds
+# Journal file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/threshold/xilinxprj/threshold.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source threshold.tcl -notrace

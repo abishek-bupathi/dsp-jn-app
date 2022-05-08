@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../pkgAndComponents/arrayPackage.vhd" \
+"../../../../../CSR_4x32Reg_WithWDogCtrl.vhd" \
+
+# Do not sort compile order
+nosort

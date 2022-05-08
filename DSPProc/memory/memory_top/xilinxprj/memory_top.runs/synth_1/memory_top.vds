@@ -1,0 +1,334 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Sep  3 02:12:28 2021
+# Process ID: 17936
+# Current directory: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/xilinxprj/memory_top.runs/synth_1
+# Command line: vivado.exe -log memory_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source memory_top.tcl
+# Log file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/xilinxprj/memory_top.runs/synth_1/memory_top.vds
+# Journal file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/xilinxprj/memory_top.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source memory_top.tcl -notrace
+Command: synth_design -top memory_top -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18548 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 715.133 ; gain = 177.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'memory_top' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_top.vhd:63]
+INFO: [Synth 8-3491] module 'memory_selDSPOrHostCtrl' declared at 'C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_selDSPOrHostCtrl.vhd:26' bound to instance 'memory_selDSPOrHostCtrl_i' of component 'memory_selDSPOrHostCtrl' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_top.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'memory_selDSPOrHostCtrl' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_selDSPOrHostCtrl.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'memory_selDSPOrHostCtrl' (1#1) [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_selDSPOrHostCtrl.vhd:43]
+INFO: [Synth 8-3491] module 'memory_decodeMemWrCtrl' declared at 'C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_decodeMemWrCtrl.vhd:20' bound to instance 'memory_decodeMemWrCtrl_i' of component 'memory_decodeMemWrCtrl' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_top.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'memory_decodeMemWrCtrl' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_decodeMemWrCtrl.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'memory_decodeMemWrCtrl' (2#1) [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_decodeMemWrCtrl.vhd:29]
+INFO: [Synth 8-3491] module 'memory_selDatToHost' declared at 'C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_selDatToHost.vhd:21' bound to instance 'memory_selDatToHost_i' of component 'memory_selDatToHost' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_top.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'memory_selDatToHost' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_selDatToHost.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'memory_selDatToHost' (3#1) [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_selDatToHost.vhd:31]
+INFO: [Synth 8-3491] module 'CSR_4x32Reg_WithWDogCtrl' declared at 'C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/CSR_4x32Reg_WithWDogCtrl.vhd:36' bound to instance 'CSR_4x32Reg_i' of component 'CSR_4x32Reg_withWDogCtrl' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_top.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'CSR_4x32Reg_WithWDogCtrl' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/CSR_4x32Reg_WithWDogCtrl.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'CSR_4x32Reg_WithWDogCtrl' (4#1) [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/CSR_4x32Reg_WithWDogCtrl.vhd:50]
+INFO: [Synth 8-3491] module 'sourceMem_32x256BRAM' declared at 'C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd:35' bound to instance 'sourceMem_32x256BRAM_i' of component 'sourceMem_32x256BRAM' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_top.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'sourceMem_32x256BRAM' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd:44]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0_32x256' declared at 'C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/xilinxprj/memory_top.runs/synth_1/.Xil/Vivado-17936-DESKTOP-597B57E/realtime/blk_mem_gen_0_32x256_stub.vhdl:5' bound to instance 'u1' of component 'blk_mem_gen_0_32x256' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0_32x256' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/xilinxprj/memory_top.runs/synth_1/.Xil/Vivado-17936-DESKTOP-597B57E/realtime/blk_mem_gen_0_32x256_stub.vhdl:19]
+INFO: [Synth 8-256] done synthesizing module 'sourceMem_32x256BRAM' (5#1) [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd:44]
+INFO: [Synth 8-3491] module 'resultMem0_32x32Reg' declared at 'C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/resultMem0_32x32Reg/resultMem0_32x32Reg.vhd:25' bound to instance 'resultMem0_32x32Reg_i' of component 'resultMem0_32x32Reg' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_top.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'resultMem0_32x32Reg' [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/resultMem0_32x32Reg/resultMem0_32x32Reg.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'resultMem0_32x32Reg' (6#1) [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/resultMem0_32x32Reg/resultMem0_32x32Reg.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'memory_top' (7#1) [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/memory_top.vhd:63]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 781.637 ; gain = 244.059
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 781.637 ; gain = 244.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 781.637 ; gain = 244.059
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/sourceMem_32x256BRAM/blk_mem_gen_0_32x256/blk_mem_gen_0_32x256/blk_mem_gen_0_32x256_in_context.xdc] for cell 'sourceMem_32x256BRAM_i/u1'
+Finished Parsing XDC File [c:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/sourceMem_32x256BRAM/blk_mem_gen_0_32x256/blk_mem_gen_0_32x256/blk_mem_gen_0_32x256_in_context.xdc] for cell 'sourceMem_32x256BRAM_i/u1'
+Parsing XDC File [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/xilinxprj/memory_top.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/xilinxprj/memory_top.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 898.594 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 898.594 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 898.594 ; gain = 361.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 898.594 ; gain = 361.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for sourceMem_32x256BRAM_i/u1. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 898.594 ; gain = 361.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 898.594 ; gain = 361.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 36    
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 72    
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module memory_selDSPOrHostCtrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module memory_decodeMemWrCtrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+Module memory_selDatToHost 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module CSR_4x32Reg_WithWDogCtrl 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module resultMem0_32x32Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 64    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 898.594 ; gain = 361.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 898.594 ; gain = 361.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 898.594 ; gain = 361.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 901.570 ; gain = 363.992
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 914.395 ; gain = 376.816
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 914.395 ; gain = 376.816
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 914.395 ; gain = 376.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 914.395 ; gain = 376.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 914.395 ; gain = 376.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 914.395 ; gain = 376.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------------+----------+
+|      |BlackBox name        |Instances |
++------+---------------------+----------+
+|1     |blk_mem_gen_0_32x256 |         1|
++------+---------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------+------+
+|      |Cell                        |Count |
++------+----------------------------+------+
+|1     |blk_mem_gen_0_32x256_bbox_0 |     1|
+|2     |BUFG                        |     1|
+|3     |LUT1                        |     1|
+|4     |LUT2                        |   228|
+|5     |LUT3                        |    44|
+|6     |LUT4                        |    42|
+|7     |LUT5                        |     2|
+|8     |LUT6                        |   451|
+|9     |MUXF7                       |   160|
+|10    |FDCE                        |  1124|
+|11    |FDPE                        |    29|
+|12    |IBUF                        |   312|
+|13    |OBUF                        |   416|
++------+----------------------------+------+
+
+Report Instance Areas: 
++------+-------------------------+-------------------------+------+
+|      |Instance                 |Module                   |Cells |
++------+-------------------------+-------------------------+------+
+|1     |top                      |                         |  3066|
+|2     |  CSR_4x32Reg_i          |CSR_4x32Reg_WithWDogCtrl |   544|
+|3     |  resultMem0_32x32Reg_i  |resultMem0_32x32Reg      |  1440|
+|4     |  sourceMem_32x256BRAM_i |sourceMem_32x256BRAM     |   353|
++------+-------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 914.395 ; gain = 376.816
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 914.395 ; gain = 259.859
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 914.395 ; gain = 376.816
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 160 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 930.746 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+33 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 930.746 ; gain = 638.766
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 930.746 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/memory_top/xilinxprj/memory_top.runs/synth_1/memory_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file memory_top_utilization_synth.rpt -pb memory_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  3 02:13:23 2021...

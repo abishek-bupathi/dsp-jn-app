@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DSP_decodeCmdAndWDogCtrl_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DSP_decodeCmdAndWDogCtrl_TB" />
+            <top_module name="arraypackage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="106696936fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="307"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/testNo" type="other">
+      <obj_property name="ElementShortName">testNo</obj_property>
+      <obj_property name="ObjectShortName">testNo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/endOfSim" type="other">
+      <obj_property name="ElementShortName">endOfSim</obj_property>
+      <obj_property name="ObjectShortName">endOfSim</obj_property>
+   </wvobject>
+   <wvobject fp_name="group29" type="group">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[0]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="label">CSR[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[0][0]" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">CSR(0)(0) DSPMaster</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][30]" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+         <obj_property name="label">CSR(3)[30] ld0 watchdog counter</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][29]" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+         <obj_property name="label">CSR(3)[29] watchdog enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="group216" type="group">
+         <obj_property name="label">CSR(3)(28:0) watchdog timeout value</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">[28]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">[27]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">[26]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">[25]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">[24]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">[23]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">[22]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">[21]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">[20]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">[19]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">[18]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">[17]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">[16]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">[15]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">[14]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">[13]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">[12]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">[11]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">[10]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">[9]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">[8]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3][0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR[3]" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="label">CSR(3)[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/CSR" type="array">
+         <obj_property name="ElementShortName">CSR[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSR[3:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/DSP_activeIndex" type="array">
+         <obj_property name="ElementShortName">DSP_activeIndex[5:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_activeIndex[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/DSP_goIndex" type="array">
+         <obj_property name="ElementShortName">DSP_goIndex[5:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_goIndex[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/WDTimeout" type="logic">
+         <obj_property name="ElementShortName">WDTimeout</obj_property>
+         <obj_property name="ObjectShortName">WDTimeout</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/NS" type="other">
+         <obj_property name="ElementShortName">NS</obj_property>
+         <obj_property name="ObjectShortName">NS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/CS" type="other">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/DSPMaster" type="logic">
+         <obj_property name="ElementShortName">DSPMaster</obj_property>
+         <obj_property name="ObjectShortName">DSPMaster</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/command" type="array">
+         <obj_property name="ElementShortName">command[2:0]</obj_property>
+         <obj_property name="ObjectShortName">command[2:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group217" type="group">
+      <obj_property name="label">WDogTimer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/CSR" type="array">
+         <obj_property name="ElementShortName">CSR[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSR[3:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/DSP_activeIndex" type="array">
+         <obj_property name="ElementShortName">DSP_activeIndex[5:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_activeIndex[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/WDTimeout" type="logic">
+         <obj_property name="ElementShortName">WDTimeout</obj_property>
+         <obj_property name="ObjectShortName">WDTimeout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/WDTmrLd0" type="logic">
+         <obj_property name="ElementShortName">WDTmrLd0</obj_property>
+         <obj_property name="ObjectShortName">WDTmrLd0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/WDTmrCE" type="logic">
+         <obj_property name="ElementShortName">WDTmrCE</obj_property>
+         <obj_property name="ObjectShortName">WDTmrCE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/CE" type="logic">
+         <obj_property name="ElementShortName">CE</obj_property>
+         <obj_property name="ObjectShortName">CE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/taskTimer" type="array">
+         <obj_property name="ElementShortName">taskTimer[31:0]</obj_property>
+         <obj_property name="ObjectShortName">taskTimer[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/intWDTimeout" type="logic">
+         <obj_property name="ElementShortName">intWDTimeout</obj_property>
+         <obj_property name="ObjectShortName">intWDTimeout</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group228" type="group">
+      <obj_property name="label">timer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/loadDat" type="array">
+         <obj_property name="ElementShortName">loadDat[31:0]</obj_property>
+         <obj_property name="ObjectShortName">loadDat[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/ce" type="logic">
+         <obj_property name="ElementShortName">ce</obj_property>
+         <obj_property name="ObjectShortName">ce</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/count" type="array">
+         <obj_property name="ElementShortName">count[31:0]</obj_property>
+         <obj_property name="ObjectShortName">count[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/TC" type="logic">
+         <obj_property name="ElementShortName">TC</obj_property>
+         <obj_property name="ObjectShortName">TC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/ceo" type="logic">
+         <obj_property name="ElementShortName">ceo</obj_property>
+         <obj_property name="ObjectShortName">ceo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/XX_NS" type="array">
+         <obj_property name="ElementShortName">XX_NS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_NS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/XX_CS" type="array">
+         <obj_property name="ElementShortName">XX_CS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_CS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/DSP_decodeCmdAndWDogCtrl_TB/uut/WDogTimer_i/timer_i/intTC" type="logic">
+         <obj_property name="ElementShortName">intTC</obj_property>
+         <obj_property name="ObjectShortName">intTC</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,9 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/memory/sourceMem_32x256BRAM/blk_mem_gen_0_32x256/sim/blk_mem_gen_0_32x256.v,1612827983,verilog,,,,blk_mem_gen_0_32x256,,,,,,,,
+C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd,1619389229,vhdl,,,,sourcemem_32x256bram,,,,,,,,
+C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/memory/sourceMem_32x256BRAM/testbench/sourceMem_32x256BRAM_TB.vhd,1615251982,vhdl,,,,sourcemem_32x256bram_tb,,,,,,,,
+C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/memory/sourceMem_32x256BRAM/xilinxprj/sourceMem_32x256BRAM.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/pkgAndComponents/arrayPackage.vhd,1624315942,vhdl,C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd;C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/memory/sourceMem_32x256BRAM/testbench/sourceMem_32x256BRAM_TB.vhd,,,arraypackage,,,,,,,,

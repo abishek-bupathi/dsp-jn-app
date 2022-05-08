@@ -1,0 +1,7 @@
+Running: xsim.dir/DSP_decodeCmdAndWDogCtrl_TB_behav/xsimk.exe -simmode gui -wdb DSP_decodeCmdAndWDogCtrl_TB_behav.wdb -simrunnum 0 -socket 52712
+Design successfully loaded
+Design Loading Memory Usage: 5136 KB (Peak: 5136 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 5852 KB (Peak: 5852 KB)
+Simulation CPU Usage: 46 ms

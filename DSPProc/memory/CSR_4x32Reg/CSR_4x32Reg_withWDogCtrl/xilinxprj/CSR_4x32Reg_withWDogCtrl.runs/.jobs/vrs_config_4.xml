@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_3" LaunchDir="C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/xilinxprj/CSR_4x32Reg_withWDogCtrl.runs/synth_3" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

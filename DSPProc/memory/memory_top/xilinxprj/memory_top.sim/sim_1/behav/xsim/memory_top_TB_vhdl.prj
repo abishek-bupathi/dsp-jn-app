@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../pkgAndComponents/arrayPackage.vhd" \
+"../../../../../../CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/CSR_4x32Reg_WithWDogCtrl.vhd" \
+"../../../../../memory_decodeMemWrCtrl.vhd" \
+"../../../../../memory_selDSPOrHostCtrl.vhd" \
+"../../../../../memory_selDatToHost.vhd" \
+"../../../../../memory_top.vhd" \
+"../../../../../../resultMem0_32x32Reg/resultMem0_32x32Reg.vhd" \
+"../../../../../../sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd" \
+"../../../../../testbench/memory_top_TB.vhd" \
+
+# Do not sort compile order
+nosort

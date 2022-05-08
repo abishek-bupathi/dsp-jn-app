@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep  8 22:55:24 2021
+# Process ID: 13560
+# Current directory: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg/xilinxprj/CSR_4x32Reg.runs/synth_4
+# Command line: vivado.exe -log CSR_4x32Reg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSR_4x32Reg.tcl
+# Log file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg/xilinxprj/CSR_4x32Reg.runs/synth_4/CSR_4x32Reg.vds
+# Journal file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg/xilinxprj/CSR_4x32Reg.runs/synth_4\vivado.jou
+#-----------------------------------------------------------
+source CSR_4x32Reg.tcl -notrace

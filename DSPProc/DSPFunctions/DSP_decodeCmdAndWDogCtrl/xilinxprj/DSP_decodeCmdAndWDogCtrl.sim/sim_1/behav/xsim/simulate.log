@@ -1,0 +1,6 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Note: %N : Simulation Start.
+Time: 0 ps  Iteration: 0  Process: /DSP_decodeCmdAndWDogCtrl_TB/stim  File: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/testbench/DSP_decodeCmdAndWDogCtrl_TB.vhd
+Note: simulation done
+Time: 984 ns  Iteration: 0  Process: /DSP_decodeCmdAndWDogCtrl_TB/stim  File: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/testbench/DSP_decodeCmdAndWDogCtrl_TB.vhd

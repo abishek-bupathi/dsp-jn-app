@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="memory_top_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="arraypackage" />
+            <top_module name="glbl" />
+            <top_module name="memory_top_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4300000001fs"></ZoomEndTime>
+      <Cursor1Time time="1464000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/memory_top_TB/endOfSim" type="other">
+      <obj_property name="ElementShortName">endOfSim</obj_property>
+      <obj_property name="ObjectShortName">endOfSim</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memory_top_TB/testNo" type="other">
+      <obj_property name="ElementShortName">testNo</obj_property>
+      <obj_property name="ObjectShortName">testNo</obj_property>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_top_TB/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/CSRMemAdd_7DT5" type="array">
+         <obj_property name="ElementShortName">CSRMemAdd_7DT5[2:0]</obj_property>
+         <obj_property name="ObjectShortName">CSRMemAdd_7DT5[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/sourceMemAdd_7DT5" type="array">
+         <obj_property name="ElementShortName">sourceMemAdd_7DT5[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sourceMemAdd_7DT5[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/resultMem0Add_7DT5" type="array">
+         <obj_property name="ElementShortName">resultMem0Add_7DT5[2:0]</obj_property>
+         <obj_property name="ObjectShortName">resultMem0Add_7DT5[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/host_memWr" type="logic">
+         <obj_property name="ElementShortName">host_memWr</obj_property>
+         <obj_property name="ObjectShortName">host_memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/host_memAdd" type="array">
+         <obj_property name="ElementShortName">host_memAdd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">host_memAdd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/host_datToMem" type="array">
+         <obj_property name="ElementShortName">host_datToMem[255:0]</obj_property>
+         <obj_property name="ObjectShortName">host_datToMem[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/datToHost" type="array">
+         <obj_property name="ElementShortName">datToHost[31:0]</obj_property>
+         <obj_property name="ObjectShortName">datToHost[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/DSP_memWr" type="logic">
+         <obj_property name="ElementShortName">DSP_memWr</obj_property>
+         <obj_property name="ObjectShortName">DSP_memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/DSP_memAdd" type="array">
+         <obj_property name="ElementShortName">DSP_memAdd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_memAdd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/DSP_datToMem" type="array">
+         <obj_property name="ElementShortName">DSP_datToMem[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_datToMem[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/CSR" type="array">
+         <obj_property name="ElementShortName">CSR[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSR[3:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/sourceMem" type="array">
+         <obj_property name="ElementShortName">sourceMem[255:0]</obj_property>
+         <obj_property name="ObjectShortName">sourceMem[255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group59" type="group">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_top_TB/uut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/host_memWr" type="logic">
+         <obj_property name="ElementShortName">host_memWr</obj_property>
+         <obj_property name="ObjectShortName">host_memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/host_memAdd" type="array">
+         <obj_property name="ElementShortName">host_memAdd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">host_memAdd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/host_datToMem" type="array">
+         <obj_property name="ElementShortName">host_datToMem[255:0]</obj_property>
+         <obj_property name="ObjectShortName">host_datToMem[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/datToHost" type="array">
+         <obj_property name="ElementShortName">datToHost[31:0]</obj_property>
+         <obj_property name="ObjectShortName">datToHost[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/DSP_memWr" type="logic">
+         <obj_property name="ElementShortName">DSP_memWr</obj_property>
+         <obj_property name="ObjectShortName">DSP_memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/DSP_memAdd" type="array">
+         <obj_property name="ElementShortName">DSP_memAdd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_memAdd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/DSP_datToMem" type="array">
+         <obj_property name="ElementShortName">DSP_datToMem[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_datToMem[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR" type="array">
+         <obj_property name="ElementShortName">CSR[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSR[3:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem" type="array">
+         <obj_property name="ElementShortName">sourceMem[255:0]</obj_property>
+         <obj_property name="ObjectShortName">sourceMem[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSROut" type="array">
+         <obj_property name="ElementShortName">CSROut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSROut[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memWr" type="logic">
+         <obj_property name="ElementShortName">memWr</obj_property>
+         <obj_property name="ObjectShortName">memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memAdd" type="array">
+         <obj_property name="ElementShortName">memAdd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">memAdd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/datToMem" type="array">
+         <obj_property name="ElementShortName">datToMem[255:0]</obj_property>
+         <obj_property name="ObjectShortName">datToMem[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/XX_int_CSR" type="array">
+         <obj_property name="ElementShortName">XX_int_CSR[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_int_CSR[3:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/XX_int_sourceMem" type="array">
+         <obj_property name="ElementShortName">XX_int_sourceMem[255:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_int_sourceMem[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/XX_int_resultMem0" type="array">
+         <obj_property name="ElementShortName">XX_int_resultMem0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_int_resultMem0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSRWr" type="logic">
+         <obj_property name="ElementShortName">CSRWr</obj_property>
+         <obj_property name="ObjectShortName">CSRWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMemWr" type="logic">
+         <obj_property name="ElementShortName">sourceMemWr</obj_property>
+         <obj_property name="ObjectShortName">sourceMemWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0Wr" type="logic">
+         <obj_property name="ElementShortName">resultMem0Wr</obj_property>
+         <obj_property name="ObjectShortName">resultMem0Wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memAdd7Dt5" type="array">
+         <obj_property name="ElementShortName">memAdd7Dt5[2:0]</obj_property>
+         <obj_property name="ObjectShortName">memAdd7Dt5[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memAdd4Dt0" type="array">
+         <obj_property name="ElementShortName">memAdd4Dt0[4:0]</obj_property>
+         <obj_property name="ObjectShortName">memAdd4Dt0[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group70" type="group">
+      <obj_property name="label">memory_selDSPOrHostCtrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/selDSPCtrl" type="logic">
+         <obj_property name="ElementShortName">selDSPCtrl</obj_property>
+         <obj_property name="ObjectShortName">selDSPCtrl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/host_memWr" type="logic">
+         <obj_property name="ElementShortName">host_memWr</obj_property>
+         <obj_property name="ObjectShortName">host_memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/host_memAdd" type="array">
+         <obj_property name="ElementShortName">host_memAdd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">host_memAdd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/host_datToMem" type="array">
+         <obj_property name="ElementShortName">host_datToMem[255:0]</obj_property>
+         <obj_property name="ObjectShortName">host_datToMem[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/DSP_memWr" type="logic">
+         <obj_property name="ElementShortName">DSP_memWr</obj_property>
+         <obj_property name="ObjectShortName">DSP_memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/DSP_memAdd" type="array">
+         <obj_property name="ElementShortName">DSP_memAdd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_memAdd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/DSP_datToMem" type="array">
+         <obj_property name="ElementShortName">DSP_datToMem[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DSP_datToMem[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/memWr" type="logic">
+         <obj_property name="ElementShortName">memWr</obj_property>
+         <obj_property name="ObjectShortName">memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/memAdd" type="array">
+         <obj_property name="ElementShortName">memAdd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">memAdd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDSPOrHostCtrl_i/datToMem" type="array">
+         <obj_property name="ElementShortName">datToMem[255:0]</obj_property>
+         <obj_property name="ObjectShortName">datToMem[255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group79" type="group">
+      <obj_property name="label">memory_decodeMemWrCtrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_top_TB/uut/memory_decodeMemWrCtrl_i/memWr" type="logic">
+         <obj_property name="ElementShortName">memWr</obj_property>
+         <obj_property name="ObjectShortName">memWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_decodeMemWrCtrl_i/memAdd_7DT5" type="array">
+         <obj_property name="ElementShortName">memAdd_7DT5[2:0]</obj_property>
+         <obj_property name="ObjectShortName">memAdd_7DT5[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_decodeMemWrCtrl_i/CSRWr" type="logic">
+         <obj_property name="ElementShortName">CSRWr</obj_property>
+         <obj_property name="ObjectShortName">CSRWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_decodeMemWrCtrl_i/sourceMemWr" type="logic">
+         <obj_property name="ElementShortName">sourceMemWr</obj_property>
+         <obj_property name="ObjectShortName">sourceMemWr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_decodeMemWrCtrl_i/resultMem0Wr" type="logic">
+         <obj_property name="ElementShortName">resultMem0Wr</obj_property>
+         <obj_property name="ObjectShortName">resultMem0Wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_decodeMemWrCtrl_i/CSRAdd" type="array">
+         <obj_property name="ElementShortName">CSRAdd[2:0]</obj_property>
+         <obj_property name="ObjectShortName">CSRAdd[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_decodeMemWrCtrl_i/sourceMemAdd" type="array">
+         <obj_property name="ElementShortName">sourceMemAdd[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sourceMemAdd[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_decodeMemWrCtrl_i/resultMem0Add" type="array">
+         <obj_property name="ElementShortName">resultMem0Add[2:0]</obj_property>
+         <obj_property name="ObjectShortName">resultMem0Add[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group88" type="group">
+      <obj_property name="label">memory_selDatToHost</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDatToHost_i/memAdd_7DT5" type="array">
+         <obj_property name="ElementShortName">memAdd_7DT5[2:0]</obj_property>
+         <obj_property name="ObjectShortName">memAdd_7DT5[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDatToHost_i/datToHost" type="array">
+         <obj_property name="ElementShortName">datToHost[31:0]</obj_property>
+         <obj_property name="ObjectShortName">datToHost[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDatToHost_i/CSROut" type="array">
+         <obj_property name="ElementShortName">CSROut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSROut[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDatToHost_i/sourceMem" type="array">
+         <obj_property name="ElementShortName">sourceMem[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sourceMem[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDatToHost_i/resultMem0" type="array">
+         <obj_property name="ElementShortName">resultMem0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">resultMem0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDatToHost_i/CSRAdd" type="array">
+         <obj_property name="ElementShortName">CSRAdd[2:0]</obj_property>
+         <obj_property name="ObjectShortName">CSRAdd[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDatToHost_i/sourceMemAdd" type="array">
+         <obj_property name="ElementShortName">sourceMemAdd[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sourceMemAdd[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/memory_selDatToHost_i/resultMem0Add" type="array">
+         <obj_property name="ElementShortName">resultMem0Add[2:0]</obj_property>
+         <obj_property name="ObjectShortName">resultMem0Add[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group99" type="group">
+      <obj_property name="label">CSR_4x32Reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/wr" type="logic">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/add" type="array">
+         <obj_property name="ElementShortName">add[1:0]</obj_property>
+         <obj_property name="ObjectShortName">add[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/dIn" type="array">
+         <obj_property name="ElementShortName">dIn[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dIn[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/CSR" type="array">
+         <obj_property name="ElementShortName">CSR[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSR[3:0][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/CSROut" type="array">
+         <obj_property name="ElementShortName">CSROut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSROut[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/XX_NS" type="array">
+         <obj_property name="ElementShortName">XX_NS[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_NS[3:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/XX_CS" type="array">
+         <obj_property name="ElementShortName">XX_CS[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_CS[3:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/CSR_4x32Reg_i/XX_int_CSR" type="array">
+         <obj_property name="ElementShortName">XX_int_CSR[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_int_CSR[3:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group108" type="group">
+      <obj_property name="label">sourceMem_32x256BRAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem_32x256BRAM_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem_32x256BRAM_i/wr" type="logic">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem_32x256BRAM_i/add" type="array">
+         <obj_property name="ElementShortName">add[4:0]</obj_property>
+         <obj_property name="ObjectShortName">add[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem_32x256BRAM_i/dIn" type="array">
+         <obj_property name="ElementShortName">dIn[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dIn[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem_32x256BRAM_i/dOut" type="array">
+         <obj_property name="ElementShortName">dOut[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dOut[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem_32x256BRAM_i/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem_32x256BRAM_i/addra" type="array">
+         <obj_property name="ElementShortName">addra[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/sourceMem_32x256BRAM_i/clkL" type="logic">
+         <obj_property name="ElementShortName">clkL</obj_property>
+         <obj_property name="ObjectShortName">clkL</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group119" type="group">
+      <obj_property name="label">resultMem0_32x32Reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/ld0" type="logic">
+         <obj_property name="ElementShortName">ld0</obj_property>
+         <obj_property name="ObjectShortName">ld0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/wr" type="logic">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/add" type="array">
+         <obj_property name="ElementShortName">add[4:0]</obj_property>
+         <obj_property name="ObjectShortName">add[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/dIn" type="array">
+         <obj_property name="ElementShortName">dIn[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dIn[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/dOut" type="array">
+         <obj_property name="ElementShortName">dOut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dOut[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/XX_NS_ResultMem32x32" type="array">
+         <obj_property name="ElementShortName">XX_NS_ResultMem32x32[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_NS_ResultMem32x32[31:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/XX_CS_ResultMem32x32" type="array">
+         <obj_property name="ElementShortName">XX_CS_ResultMem32x32[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">XX_CS_ResultMem32x32[31:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/memory_top_TB/uut/resultMem0_32x32Reg_i/CS_ResultMem32x32" type="array">
+         <obj_property name="ElementShortName">CS_ResultMem32x32[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CS_ResultMem32x32[31:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,6 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Note: %N : Simulation Start.
+Time: 0 ps  Iteration: 0  Process: /CSR_4x32Reg_WithWDogCtrl_TB/stim  File: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/testbench/CSR_4x32Reg_withWDogCtrl_TB.vhd
+Note: simulation done
+Time: 384 ns  Iteration: 0  Process: /CSR_4x32Reg_WithWDogCtrl_TB/stim  File: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/testbench/CSR_4x32Reg_withWDogCtrl_TB.vhd

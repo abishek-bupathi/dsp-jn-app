@@ -1,0 +1,1 @@
+-wto "24c2507245d240b582ea05febac0d9eb" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "DSP_selMemMaster_TB_behav" "xil_defaultlib.DSP_selMemMaster_TB" -log "elaborate.log" 

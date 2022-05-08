@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CSR_4x32Reg_WithWDogCtrl_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CSR_4x32Reg_WithWDogCtrl_TB" />
+            <top_module name="arraypackage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="122148917fs"></ZoomEndTime>
+      <Cursor1Time time="568000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/testNo" type="other">
+      <obj_property name="ElementShortName">testNo</obj_property>
+      <obj_property name="ObjectShortName">testNo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/endOfSim" type="other">
+      <obj_property name="ElementShortName">endOfSim</obj_property>
+      <obj_property name="ObjectShortName">endOfSim</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2448" type="group">
+      <obj_property name="label">TBTop</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/WDTimeout" type="logic">
+         <obj_property name="ElementShortName">WDTimeout</obj_property>
+         <obj_property name="ObjectShortName">WDTimeout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/wr" type="logic">
+         <obj_property name="ElementShortName">wr</obj_property>
+         <obj_property name="ObjectShortName">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/add" type="array">
+         <obj_property name="ElementShortName">add[1:0]</obj_property>
+         <obj_property name="ObjectShortName">add[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/dIn" type="array">
+         <obj_property name="ElementShortName">dIn[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dIn[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/CSR" type="array">
+         <obj_property name="ElementShortName">CSR[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CSR[3:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2437" type="group">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/uut/CS" type="array">
+         <obj_property name="ElementShortName">CS[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">CS[3:0][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/CSR_4x32Reg_WithWDogCtrl_TB/uut/NS" type="array">
+         <obj_property name="ElementShortName">NS[3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">NS[3:0][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

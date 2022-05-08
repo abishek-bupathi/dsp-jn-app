@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../pkgAndComponents/CB32CLE.vhd" \
+"../../../../../../../pkgAndComponents/arrayPackage.vhd" \
+"../../../../../DSP_decodeCmdAndWDogCtrl.vhd" \
+"../../../../../WDogTimer.vhd" \
+"../../../../../testbench/DSP_decodeCmdAndWDogCtrl_TB.vhd" \
+
+# Do not sort compile order
+nosort

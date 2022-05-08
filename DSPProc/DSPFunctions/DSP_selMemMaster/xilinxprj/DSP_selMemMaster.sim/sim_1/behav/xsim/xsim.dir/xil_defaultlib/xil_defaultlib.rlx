@@ -1,0 +1,7 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_selMemMaster/DSP_selMemMaster.vhd,1630681656,vhdl,,,,dsp_selmemmaster,,,,,,,,
+C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_selMemMaster/testbench/DSP_selMemMaster_TB.vhd,1630929930,vhdl,,,,dsp_selmemmaster_tb,,,,,,,,
+C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/arrayPackage.vhd,1630917503,vhdl,C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_selMemMaster/DSP_selMemMaster.vhd;C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_selMemMaster/testbench/DSP_selMemMaster_TB.vhd,,,arraypackage,,,,,,,,

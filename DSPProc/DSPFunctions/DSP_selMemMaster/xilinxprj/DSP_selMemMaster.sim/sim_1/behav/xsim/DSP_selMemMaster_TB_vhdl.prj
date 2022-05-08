@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../pkgAndComponents/arrayPackage.vhd" \
+"../../../../../DSP_selMemMaster.vhd" \
+"../../../../../testbench/DSP_selMemMaster_TB.vhd" \
+
+# Do not sort compile order
+nosort

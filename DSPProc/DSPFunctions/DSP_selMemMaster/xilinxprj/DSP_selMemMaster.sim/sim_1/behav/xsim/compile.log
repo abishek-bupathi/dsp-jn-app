@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/arrayPackage.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_selMemMaster/DSP_selMemMaster.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DSP_selMemMaster'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_selMemMaster/testbench/DSP_selMemMaster_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DSP_selMemMaster_TB'

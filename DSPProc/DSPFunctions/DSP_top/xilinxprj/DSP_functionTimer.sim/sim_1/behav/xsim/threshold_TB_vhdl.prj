@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../pkgAndComponents/CB0To31CLEInteger.vhd" \
+"../../../../../../../pkgAndComponents/arrayPackage.vhd" \
+"../../../../../threshold.vhd" \
+"../../../../../testbench/threshold_TB.vhd" \
+
+# Do not sort compile order
+nosort

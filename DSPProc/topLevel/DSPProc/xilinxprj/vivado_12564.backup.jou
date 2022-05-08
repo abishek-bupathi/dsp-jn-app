@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb 17 18:20:02 2022
+# Process ID: 12564
+# Current directory: E:/BE_Project/Project/Project_files/DSP/DSPProc/topLevel/DSPProc/xilinxprj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1112 E:\BE_Project\Project\Project_files\DSP\DSPProc\topLevel\DSPProc\xilinxprj\DSPProc_all.xpr
+# Log file: E:/BE_Project/Project/Project_files/DSP/DSPProc/topLevel/DSPProc/xilinxprj/vivado.log
+# Journal file: E:/BE_Project/Project/Project_files/DSP/DSPProc/topLevel/DSPProc/xilinxprj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/BE_Project/Project/Project_files/DSP/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.xpr
+update_compile_order -fileset sources_1
+archive_project C:/Users/abish/Desktop/DSPProc_all.xpr.zip -temp_dir E:/BE_Project/Project/Project_files/DSP/DSPProc/topLevel/DSPProc/xilinxprj/.Xil/Vivado-12564-Helios -force -include_local_ip_cache -include_config_settings

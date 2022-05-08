@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="threshold_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="arraypackage" />
+            <top_module name="threshold_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="110000000001fs"></ZoomEndTime>
+      <Cursor1Time time="30000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="106"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/threshold_TB/testNo" type="other">
+      <obj_property name="ElementShortName">testNo</obj_property>
+      <obj_property name="ObjectShortName">testNo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/threshold_TB/endOfSim" type="other">
+      <obj_property name="ElementShortName">endOfSim</obj_property>
+      <obj_property name="ObjectShortName">endOfSim</obj_property>
+   </wvobject>
+   <wvobject fp_name="group195" type="group">
+      <obj_property name="label">UUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/threshold_TB/uut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="group144" type="group">
+         <obj_property name="label">GRP: top lvl ctrl/status</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/threshold_TB/uut/rst" type="logic">
+            <obj_property name="ElementShortName">rst</obj_property>
+            <obj_property name="ObjectShortName">rst</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/WDTimeout" type="logic">
+            <obj_property name="ElementShortName">WDTimeout</obj_property>
+            <obj_property name="ObjectShortName">WDTimeout</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/go" type="logic">
+            <obj_property name="ElementShortName">go</obj_property>
+            <obj_property name="ObjectShortName">go</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/active" type="logic">
+            <obj_property name="ElementShortName">active</obj_property>
+            <obj_property name="ObjectShortName">active</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/clrLocalMem" type="logic">
+            <obj_property name="ElementShortName">clrLocalMem</obj_property>
+            <obj_property name="ObjectShortName">clrLocalMem</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group140" type="group">
+         <obj_property name="label">GRP: address counter control</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/threshold_TB/uut/add_ld" type="logic">
+            <obj_property name="ElementShortName">add_ld</obj_property>
+            <obj_property name="ObjectShortName">add_ld</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/YAdd_ce" type="logic">
+            <obj_property name="ElementShortName">YAdd_ce</obj_property>
+            <obj_property name="ObjectShortName">YAdd_ce</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/YAdd" type="other">
+            <obj_property name="ElementShortName">YAdd</obj_property>
+            <obj_property name="ObjectShortName">YAdd</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/YAdd_TC" type="logic">
+            <obj_property name="ElementShortName">YAdd_TC</obj_property>
+            <obj_property name="ObjectShortName">YAdd_TC</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/XAdd_ce" type="logic">
+            <obj_property name="ElementShortName">XAdd_ce</obj_property>
+            <obj_property name="ObjectShortName">XAdd_ce</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/XAdd_TC" type="logic">
+            <obj_property name="ElementShortName">XAdd_TC</obj_property>
+            <obj_property name="ObjectShortName">XAdd_TC</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group143" type="group">
+         <obj_property name="label">GRP: FMS state</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/threshold_TB/uut/NS" type="other">
+            <obj_property name="ElementShortName">NS</obj_property>
+            <obj_property name="ObjectShortName">NS</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/CS" type="other">
+            <obj_property name="ElementShortName">CS</obj_property>
+            <obj_property name="ObjectShortName">CS</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group141" type="group">
+         <obj_property name="label">GRP: threshold processing</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/threshold_TB/uut/CSR0" type="array">
+            <obj_property name="ElementShortName">CSR0[31:0]</obj_property>
+            <obj_property name="ObjectShortName">CSR0[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/XAdd" type="other">
+            <obj_property name="ElementShortName">XAdd</obj_property>
+            <obj_property name="ObjectShortName">XAdd</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/sourceMem" type="array">
+            <obj_property name="ElementShortName">sourceMem[255:0]</obj_property>
+            <obj_property name="ObjectShortName">sourceMem[255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/sourceMemByte" type="array">
+            <obj_property name="ElementShortName">sourceMemByte[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sourceMemByte[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/threshVal" type="array">
+            <obj_property name="ElementShortName">threshVal[7:0]</obj_property>
+            <obj_property name="ObjectShortName">threshVal[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/XX_NSThreshVec" type="array">
+            <obj_property name="ElementShortName">XX_NSThreshVec[31:0]</obj_property>
+            <obj_property name="ObjectShortName">XX_NSThreshVec[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/CSThreshVec" type="array">
+            <obj_property name="ElementShortName">CSThreshVec[31:0]</obj_property>
+            <obj_property name="ObjectShortName">CSThreshVec[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group142" type="group">
+         <obj_property name="label">GRP: write to memory</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/threshold_TB/uut/memWr" type="logic">
+            <obj_property name="ElementShortName">memWr</obj_property>
+            <obj_property name="ObjectShortName">memWr</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/memAdd" type="array">
+            <obj_property name="ElementShortName">memAdd[7:0]</obj_property>
+            <obj_property name="ObjectShortName">memAdd[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/threshold_TB/uut/datToMem" type="array">
+            <obj_property name="ElementShortName">datToMem[31:0]</obj_property>
+            <obj_property name="ObjectShortName">datToMem[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group207" type="group">
+      <obj_property name="label">YAdd0To31</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/loadDat" type="other">
+         <obj_property name="ElementShortName">loadDat</obj_property>
+         <obj_property name="ObjectShortName">loadDat</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/ce" type="logic">
+         <obj_property name="ElementShortName">ce</obj_property>
+         <obj_property name="ObjectShortName">ce</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/count" type="other">
+         <obj_property name="ElementShortName">count</obj_property>
+         <obj_property name="ObjectShortName">count</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/TC" type="logic">
+         <obj_property name="ElementShortName">TC</obj_property>
+         <obj_property name="ObjectShortName">TC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/ceo" type="logic">
+         <obj_property name="ElementShortName">ceo</obj_property>
+         <obj_property name="ObjectShortName">ceo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/XX_NS" type="other">
+         <obj_property name="ElementShortName">XX_NS</obj_property>
+         <obj_property name="ObjectShortName">XX_NS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/XX_CS" type="other">
+         <obj_property name="ElementShortName">XX_CS</obj_property>
+         <obj_property name="ObjectShortName">XX_CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/YAdd0To31/XX_intTC" type="logic">
+         <obj_property name="ElementShortName">XX_intTC</obj_property>
+         <obj_property name="ObjectShortName">XX_intTC</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group219" type="group">
+      <obj_property name="label">XAdd0To7</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/loadDat" type="other">
+         <obj_property name="ElementShortName">loadDat</obj_property>
+         <obj_property name="ObjectShortName">loadDat</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/ce" type="logic">
+         <obj_property name="ElementShortName">ce</obj_property>
+         <obj_property name="ObjectShortName">ce</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/count" type="other">
+         <obj_property name="ElementShortName">count</obj_property>
+         <obj_property name="ObjectShortName">count</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/TC" type="logic">
+         <obj_property name="ElementShortName">TC</obj_property>
+         <obj_property name="ObjectShortName">TC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/ceo" type="logic">
+         <obj_property name="ElementShortName">ceo</obj_property>
+         <obj_property name="ObjectShortName">ceo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/XX_NS" type="other">
+         <obj_property name="ElementShortName">XX_NS</obj_property>
+         <obj_property name="ObjectShortName">XX_NS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/XX_CS" type="other">
+         <obj_property name="ElementShortName">XX_CS</obj_property>
+         <obj_property name="ObjectShortName">XX_CS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/threshold_TB/uut/XAdd0To7/XX_intTC" type="logic">
+         <obj_property name="ElementShortName">XX_intTC</obj_property>
+         <obj_property name="ObjectShortName">XX_intTC</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

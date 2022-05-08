@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/BE_Project/Project/Project_files/DSPProc/memory/sourceMem_32x256BRAM/blk_mem_gen_0_32x256/sim/blk_mem_gen_0_32x256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_32x256
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

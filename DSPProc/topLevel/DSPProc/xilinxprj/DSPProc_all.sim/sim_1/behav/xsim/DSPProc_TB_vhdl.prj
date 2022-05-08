@@ -1,0 +1,26 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../pkgAndComponents/CB32CLE.vhd" \
+"../../../../../../../pkgAndComponents/arrayPackage.vhd" \
+"../../../../../../../memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/CSR_4x32Reg_WithWDogCtrl.vhd" \
+"../../../../../DSPProc.vhd" \
+"../../../../../../../DSPFunctions/stub/DSPStub.vhd" \
+"../../../../../../../DSPFunctions/DSP_decodeCmdAndWDogCtrl/DSP_decodeCmdAndWDogCtrl.vhd" \
+"../../../../../../../DSPFunctions/DSP_selMemMaster/DSP_selMemMaster.vhd" \
+"../../../../../../../DSPFunctions/DSP_top/DSP_top/DSP_top.vhd" \
+"../../../../../../../DSPFunctions/DSP_decodeCmdAndWDogCtrl/WDogTimer.vhd" \
+"../../../../../../../DSPFunctions/histogram/histogram.vhd" \
+"../../../../../../../DSPFunctions/maxPixel/maxPixel/maxPixel.vhd" \
+"../../../../../../../memory/memory_top/memory_decodeMemWrCtrl.vhd" \
+"../../../../../../../memory/memory_top/memory_selDSPOrHostCtrl.vhd" \
+"../../../../../../../memory/memory_top/memory_selDatToHost.vhd" \
+"../../../../../../../memory/memory_top/memory_top.vhd" \
+"../../../../../../../memory/resultMem0_32x32Reg/resultMem0_32x32Reg.vhd" \
+"../../../../../../../pkgAndComponents/singleShot.vhd" \
+"../../../../../../../DSPFunctions/sobel/sobel.vhd" \
+"../../../../../../../memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd" \
+"../../../../../../../DSPFunctions/threshold/threshold_designAlternatives/threshold_FSM/threshold.vhd" \
+"../../../../../testbench/DSPProc_TB.vhd" \
+
+# Do not sort compile order
+nosort

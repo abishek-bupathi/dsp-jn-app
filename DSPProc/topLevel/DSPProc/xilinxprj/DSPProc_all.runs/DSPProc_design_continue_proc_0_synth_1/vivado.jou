@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Oct 15 21:22:52 2021
+# Process ID: 17292
+# Current directory: E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.runs/DSPProc_design_continue_proc_0_synth_1
+# Command line: vivado.exe -log DSPProc_design_continue_proc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DSPProc_design_continue_proc_0.tcl
+# Log file: E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.runs/DSPProc_design_continue_proc_0_synth_1/DSPProc_design_continue_proc_0.vds
+# Journal file: E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.runs/DSPProc_design_continue_proc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source DSPProc_design_continue_proc_0.tcl -notrace

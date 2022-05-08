@@ -1,0 +1,6 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Note: %N : Simulation Start.
+Time: 0 ps  Iteration: 0  Process: /setBitIDOfVec_TB/stim  File: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/old/refComps/setBitIDOfVec/HDLModel/testbench/setBitIDOfVec_TB.vhd
+Note: simulation done
+Time: 704 ns  Iteration: 0  Process: /setBitIDOfVec_TB/stim  File: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/old/refComps/setBitIDOfVec/HDLModel/testbench/setBitIDOfVec_TB.vhd

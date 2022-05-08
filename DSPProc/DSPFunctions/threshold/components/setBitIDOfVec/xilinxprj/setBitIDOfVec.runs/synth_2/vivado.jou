@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Sep 17 01:04:00 2021
+# Process ID: 36884
+# Current directory: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/old/refComps/setBitIDOfVec/xilinxprj/setBitIDOfVec.runs/synth_2
+# Command line: vivado.exe -log setBitIDOfVec.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source setBitIDOfVec.tcl
+# Log file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/old/refComps/setBitIDOfVec/xilinxprj/setBitIDOfVec.runs/synth_2/setBitIDOfVec.vds
+# Journal file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/old/refComps/setBitIDOfVec/xilinxprj/setBitIDOfVec.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source setBitIDOfVec.tcl -notrace

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../pkgAndComponents/arrayPackage.vhd" \
+"../../../../../resultMem0_32x32Reg.vhd" \
+"../../../../../testbench/resultMem0_32x32Reg_TB.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1637409158">
+  <File Type="PA-TCL" Name="DSPProc_design_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="DSPProc_design_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="DSPProc_design_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="DSPProc_design_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="DSPProc_design_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="DSPProc_design_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="DSPProc_design_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="DSPProc_design_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="DSPProc_design_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../memory/sourceMem_32x256BRAM/blk_mem_gen_0_32x256/blk_mem_gen_0_32x256.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../pkgAndComponents/CB32CLE.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../pkgAndComponents/arrayPackage.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/CSR_4x32Reg_WithWDogCtrl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/stub/DSPStub.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/DSP_decodeCmdAndWDogCtrl/DSP_decodeCmdAndWDogCtrl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/DSP_selMemMaster/DSP_selMemMaster.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/DSP_top/DSP_top/DSP_top.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/DSP_decodeCmdAndWDogCtrl/WDogTimer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sobel/genSobel3x3Byte.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Semester 7/System on Chip Design II/Assignments/Sobel/DSP_Sobel_v2/DSPFunctions/sobel/genSobel3x3Byte.vhd"/>
+        <Attr Name="ImportTime" Val="1637166901"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/histogram/histogram.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/maxPixel/maxPixel/maxPixel.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../memory/memory_top/memory_decodeMemWrCtrl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../memory/memory_top/memory_selDSPOrHostCtrl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../memory/memory_top/memory_selDatToHost.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../memory/memory_top/memory_top.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../memory/resultMem0_32x32Reg/resultMem0_32x32Reg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../pkgAndComponents/singleShot.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/sobel/sobel.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sobel/sobelFSM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Semester 7/System on Chip Design II/Assignments/Sobel/DSP_Sobel_v2/DSPFunctions/sobel/sobelFSM.vhd"/>
+        <Attr Name="ImportTime" Val="1637351268"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sobel/sobel_kernel.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Semester 7/System on Chip Design II/Assignments/Sobel/DSP_Sobel_v2/DSPFunctions/sobel/sobel_kernel.vhd"/>
+        <Attr Name="ImportTime" Val="1637161306"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../DSPFunctions/threshold/threshold_designAlternatives/threshold_FSM/threshold.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../DSPProc.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/DSPProc_design/DSPProc_design.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/DSPProc_design/hdl/DSPProc_design_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sobel/sobelTop.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Semester 7/System on Chip Design II/Assignments/Sobel/DSP_Sobel_v2/DSPFunctions/sobel/sobelTop.vhd"/>
+        <Attr Name="ImportTime" Val="1637161306"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="DSPProc_design_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../pynq-z1_c/PYNQ-Z1_C.xdc"/>
+        <Attr Name="ImportTime" Val="1634310796"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_continue_proc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_continue_proc_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_continue_proc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_continue_proc_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_continue_proc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="DSPProc_design_DSPProc_0_0"/>
+</GenRun>

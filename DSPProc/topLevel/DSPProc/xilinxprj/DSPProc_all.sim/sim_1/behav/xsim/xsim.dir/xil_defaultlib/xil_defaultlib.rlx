@@ -1,0 +1,27 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/DSP_decodeCmdAndWDogCtrl.vhd,1633209816,vhdl,,,,dsp_decodecmdandwdogctrl,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/WDogTimer.vhd,1632910026,vhdl,,,,wdogtimer,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/DSP_selMemMaster/DSP_selMemMaster.vhd,1630681656,vhdl,,,,dsp_selmemmaster,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/DSP_top/DSP_top/DSP_top.vhd,1633201072,vhdl,,,,dsp_top,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/histogram/histogram.vhd,1633206832,vhdl,,,,histogram,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/maxPixel/maxPixel/maxPixel.vhd,1633206814,vhdl,,,,maxpixel,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/sobel/sobel.vhd,1632944520,vhdl,,,,sobel,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/stub/DSPStub.vhd,1630915954,vhdl,,,,dspstub,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/threshold/threshold_designAlternatives/threshold_FSM/threshold.vhd,1632916052,vhdl,,,,threshold,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/CSR_4x32Reg_WithWDogCtrl.vhd,1632698416,vhdl,,,,csr_4x32reg_withwdogctrl,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/memory/memory_top/memory_decodeMemWrCtrl.vhd,1633201458,vhdl,,,,memory_decodememwrctrl,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/memory/memory_top/memory_selDSPOrHostCtrl.vhd,1633207496,vhdl,,,,memory_seldsporhostctrl,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/memory/memory_top/memory_selDatToHost.vhd,1633200260,vhdl,,,,memory_seldattohost,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/memory/memory_top/memory_top.vhd,1633206194,vhdl,,,,memory_top,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/memory/resultMem0_32x32Reg/resultMem0_32x32Reg.vhd,1630586602,vhdl,,,,resultmem0_32x32reg,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/memory/sourceMem_32x256BRAM/blk_mem_gen_0_32x256/sim/blk_mem_gen_0_32x256.v,1636193531,verilog,,,,blk_mem_gen_0_32x256,,axi_vip_v1_1_5;processing_system7_vip_v1_0_7;xilinx_vip,../../../../DSPProc_all.srcs/sources_1/bd/DSPProc_design/ipshared/8c62/hdl;../../../../DSPProc_all.srcs/sources_1/bd/DSPProc_design/ipshared/ec67/hdl;C:/Xilinx/Vivado/2019.1/data/xilinx_vip/include,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd,1633208306,vhdl,,,,sourcemem_32x256bram,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/pkgAndComponents/CB32CLE.vhd,1616947734,vhdl,,,,cb32cle,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/pkgAndComponents/arrayPackage.vhd,1633207524,vhdl,E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/DSP_decodeCmdAndWDogCtrl.vhd;E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/WDogTimer.vhd;E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/DSP_selMemMaster/DSP_selMemMaster.vhd;E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/DSP_top/DSP_top/DSP_top.vhd;E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/histogram/histogram.vhd;E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/maxPixel/maxPixel/maxPixel.vhd;E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/sobel/sobel.vhd;E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/stub/DSPStub.vhd;E:/BE_Project/Project/Project_files/DSPProc/DSPFunctions/threshold/threshold_designAlternatives/threshold_FSM/threshold.vhd;E:/BE_Project/Project/Project_files/DSPProc/memory/CSR_4x32Reg/CSR_4x32Reg_withWDogCtrl/CSR_4x32Reg_WithWDogCtrl.vhd;E:/BE_Project/Project/Project_files/DSPProc/memory/memory_top/memory_decodeMemWrCtrl.vhd;E:/BE_Project/Project/Project_files/DSPProc/memory/memory_top/memory_selDSPOrHostCtrl.vhd;E:/BE_Project/Project/Project_files/DSPProc/memory/memory_top/memory_selDatToHost.vhd;E:/BE_Project/Project/Project_files/DSPProc/memory/memory_top/memory_top.vhd;E:/BE_Project/Project/Project_files/DSPProc/memory/resultMem0_32x32Reg/resultMem0_32x32Reg.vhd;E:/BE_Project/Project/Project_files/DSPProc/memory/sourceMem_32x256BRAM/sourceMem_32x256BRAM.vhd;E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/DSPProc.vhd;E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/testbench/DSPProc_TB.vhd,,,arraypackage,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/pkgAndComponents/singleShot.vhd,1541401216,vhdl,,,,singleshot,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/DSPProc.vhd,1634327807,vhdl,,,,dspproc,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/testbench/DSPProc_TB.vhd,1636193416,vhdl,,,,dspproc_tb,,,,,,,,
+E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,axi_vip_v1_1_5;processing_system7_vip_v1_0_7;xilinx_vip,,,,,,

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Oct 15 21:22:55 2021
+# Process ID: 10376
+# Current directory: E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.runs/DSPProc_design_continue_proc_3_synth_1
+# Command line: vivado.exe -log DSPProc_design_continue_proc_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DSPProc_design_continue_proc_3.tcl
+# Log file: E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.runs/DSPProc_design_continue_proc_3_synth_1/DSPProc_design_continue_proc_3.vds
+# Journal file: E:/BE_Project/Project/Project_files/DSPProc/topLevel/DSPProc/xilinxprj/DSPProc_all.runs/DSPProc_design_continue_proc_3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source DSPProc_design_continue_proc_3.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP DSPProc_design_continue_proc_3, cache-ID = 0edb1b358414cde8.
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 15 21:23:04 2021...

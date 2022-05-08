@@ -1,0 +1,39 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Block Memory Generator module sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Note: %N : Simulation Start.
+Time: 0 ps  Iteration: 0  Process: /sourceMem_32x256BRAM_TB/stim  File: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/memory/sourceMem_32x256BRAM/testbench/sourceMem_32x256BRAM_TB.vhd
+blk_mem_gen_v8_4_3 collision detected at time: 50000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_3 collision detected at time: 70000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 1, B  read address: 1
+blk_mem_gen_v8_4_3 collision detected at time: 90000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 2, B  read address: 2
+blk_mem_gen_v8_4_3 collision detected at time: 110000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 3, B  read address: 3
+blk_mem_gen_v8_4_3 collision detected at time: 130000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 4, B  read address: 4
+blk_mem_gen_v8_4_3 collision detected at time: 150000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 5, B  read address: 5
+blk_mem_gen_v8_4_3 collision detected at time: 170000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 6, B  read address: 6
+blk_mem_gen_v8_4_3 collision detected at time: 190000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 7, B  read address: 7
+blk_mem_gen_v8_4_3 collision detected at time: 210000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 8, B  read address: 8
+blk_mem_gen_v8_4_3 collision detected at time: 230000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 9, B  read address: 9
+blk_mem_gen_v8_4_3 collision detected at time: 250000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: a, B  read address: a
+blk_mem_gen_v8_4_3 collision detected at time: 270000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: b, B  read address: b
+blk_mem_gen_v8_4_3 collision detected at time: 290000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: c, B  read address: c
+blk_mem_gen_v8_4_3 collision detected at time: 310000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: d, B  read address: d
+blk_mem_gen_v8_4_3 collision detected at time: 330000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: e, B  read address: e
+blk_mem_gen_v8_4_3 collision detected at time: 350000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: f, B  read address: f
+blk_mem_gen_v8_4_3 collision detected at time: 370000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 10, B  read address: 10
+blk_mem_gen_v8_4_3 collision detected at time: 390000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 11, B  read address: 11
+blk_mem_gen_v8_4_3 collision detected at time: 410000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 12, B  read address: 12
+blk_mem_gen_v8_4_3 collision detected at time: 430000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 13, B  read address: 13
+blk_mem_gen_v8_4_3 collision detected at time: 450000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 14, B  read address: 14
+blk_mem_gen_v8_4_3 collision detected at time: 470000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 15, B  read address: 15
+blk_mem_gen_v8_4_3 collision detected at time: 490000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 16, B  read address: 16
+blk_mem_gen_v8_4_3 collision detected at time: 510000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 17, B  read address: 17
+blk_mem_gen_v8_4_3 collision detected at time: 530000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 18, B  read address: 18
+blk_mem_gen_v8_4_3 collision detected at time: 550000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 19, B  read address: 19
+blk_mem_gen_v8_4_3 collision detected at time: 570000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 1a, B  read address: 1a
+blk_mem_gen_v8_4_3 collision detected at time: 590000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 1b, B  read address: 1b
+blk_mem_gen_v8_4_3 collision detected at time: 610000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 1c, B  read address: 1c
+blk_mem_gen_v8_4_3 collision detected at time: 630000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 1d, B  read address: 1d
+blk_mem_gen_v8_4_3 collision detected at time: 650000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 1e, B  read address: 1e
+blk_mem_gen_v8_4_3 collision detected at time: 670000, Instance: sourceMem_32x256BRAM_TB.uut.u1.inst.native_mem_module.blk_mem_gen_v8_4_3_inst, A write address: 1f, B  read address: 1f
+Note: simulation done
+Time: 1324 ns  Iteration: 0  Process: /sourceMem_32x256BRAM_TB/stim  File: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc21/DSPProc/memory/sourceMem_32x256BRAM/testbench/sourceMem_32x256BRAM_TB.vhd

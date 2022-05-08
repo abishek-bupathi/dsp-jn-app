@@ -1,0 +1,31 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../HDLmodel/pkgAndComponents/CB0To31CLEInteger.vhd" \
+"../../../../../HDLmodel/pkgAndComponents/CB0To7CLEInteger.vhd" \
+"../../../../../HDLmodel/pkgAndComponents/CB32CLE.vhd" \
+"../../../../../HDLmodel/pkgAndComponents/arrayPackage.vhd" \
+"../../../../../HDLmodel/memory/CSR_3x32Reg.vhd" \
+"../../../../../HDLmodel/topLevel/DSPProc.vhd" \
+"../../../../../HDLmodel/DSPFunctions/DSP_decodeCmdFSM.vhd" \
+"../../../../../HDLmodel/DSPFunctions/DSP_functionTimer.vhd" \
+"../../../../../HDLmodel/DSPFunctions/DSP_selMemMaster.vhd" \
+"../../../../../HDLmodel/DSPFunctions/DSP_top.vhd" \
+"../../../../../HDLmodel/DSPFunctions/sobel/SReg3x272_ld0_ldReg_enShft8.vhd" \
+"../../../../../HDLmodel/DSPFunctions/sobel/SReg3x272_ld0_ldReg_ldReg0.vhd" \
+"../../../../../HDLmodel/DSPFunctions/histogram/histogram.vhd" \
+"../../../../../HDLmodel/DSPFunctions/maxPixel/maxPixel.vhd" \
+"../../../../../HDLmodel/memory/memory_decodeMemWrCtrl.vhd" \
+"../../../../../HDLmodel/memory/memory_selDSPOrHostCtrl.vhd" \
+"../../../../../HDLmodel/memory/memory_selDatToHost.vhd" \
+"../../../../../HDLmodel/memory/memory_top.vhd" \
+"../../../../../HDLmodel/memory/resultMem0_32x32Reg.vhd" \
+"../../../../../HDLmodel/pkgAndComponents/singleShot.vhd" \
+"../../../../../HDLmodel/DSPFunctions/sobel/sobel.vhd" \
+"../../../../../HDLmodel/DSPFunctions/sobel/sobel_kernel.vhd" \
+"../../../../../HDLmodel/memory/sourceMem_32x256BRAM.vhd" \
+"../../../../../HDLmodel/DSPFunctions/threshold/threshold.vhd" \
+"../../../../../HDLmodel/DSPFunctions/userFunct/userFunct.vhd" \
+"../../../../../HDLmodel/testbench/DSPProc_TB.vhd" \
+
+# Do not sort compile order
+nosort

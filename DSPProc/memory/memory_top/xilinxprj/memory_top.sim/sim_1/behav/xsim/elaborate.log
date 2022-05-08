@@ -1,0 +1,31 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 69efc0102ebf4950911cdc969d0fb88b --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot memory_top_TB_behav xil_defaultlib.memory_top_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.arraypackage
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture comb of entity xil_defaultlib.memory_selDSPOrHostCtrl [memory_seldsporhostctrl_default]
+Compiling architecture comb of entity xil_defaultlib.memory_decodeMemWrCtrl [memory_decodememwrctrl_default]
+Compiling architecture comb of entity xil_defaultlib.memory_selDatToHost [memory_seldattohost_default]
+Compiling architecture rtl of entity xil_defaultlib.CSR_4x32Reg_WithWDogCtrl [csr_4x32reg_withwdogctrl_default]
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.blk_mem_gen_0_32x256
+Compiling architecture rtl of entity xil_defaultlib.sourceMem_32x256BRAM [sourcemem_32x256bram_default]
+Compiling architecture rtl of entity xil_defaultlib.resultMem0_32x32Reg [resultmem0_32x32reg_default]
+Compiling architecture rtl of entity xil_defaultlib.memory_top [memory_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.memory_top_tb
+Built simulation snapshot memory_top_TB_behav

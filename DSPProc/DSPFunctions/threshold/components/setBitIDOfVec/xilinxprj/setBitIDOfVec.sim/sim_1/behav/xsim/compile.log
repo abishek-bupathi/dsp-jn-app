@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/arrayPackage.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/old/refComps/setBitIDOfVec/HDLModel/setBitIDOfVec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'setBitIDOfVec'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/pkgAndComponents/old/refComps/setBitIDOfVec/HDLModel/testbench/setBitIDOfVec_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'setBitIDOfVec_TB'

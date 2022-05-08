@@ -1,0 +1,103 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[25]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[28]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[30]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[3]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[6]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[0]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[17]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[7]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[2]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[22]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[26]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[27]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[5]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[12]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[19]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[18]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[23]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[4]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[9]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[13]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[11]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[14]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[15]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                 DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[20]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                                  DSPProc_design_i/DSPProc_0/U0/DSP_top_i/threshold_i/CSThreshVec_reg[8]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[12]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[21]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[17]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[15]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[1]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[28]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[7]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[10]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[29]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[20]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[30]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[9]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[25]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[23]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[6]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[18]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[19]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[16]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[14]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[5]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[3]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[2]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                           DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[24]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[4]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                            DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/sobelFSM_i/CSSobelVec_reg[8]/D|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[9]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[3]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIADI[31]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIPBDIP[1]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[5]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIPBDIP[0]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[15]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIADI[30]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[13]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[4]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[8]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[14]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[19]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[25]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[29]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIADI[9]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[7]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIADI[13]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[12]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIPADIP[1]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[23]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[31]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[27]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[30]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIPADIP[3]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIPBDIP[3]|
+|               clk_fpga_0 |               clk_fpga_0 |                        DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][184]/D|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[24]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIBDI[28]|
+|               clk_fpga_0 |               clk_fpga_0 |DSPProc_design_i/DSPProc_0/U0/memory_top_i/sourceMem_32x256BRAM_i/u1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM36_NO_ECC.ram/DIADI[27]|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][34]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                        DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][202]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][72]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][47]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][16]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][56]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][64]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][59]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][41]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                        DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][178]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                          DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][9]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][58]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                        DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][186]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                        DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][176]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][25]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                        DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][218]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                         DSPProc_design_i/DSPProc_0/U0/DSP_top_i/sobel_i/gensobel3x3Byte_i/CS_reg[0][35]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

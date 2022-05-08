@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Sep  6 12:17:31 2021
+# Process ID: 2632
+# Current directory: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/xilinxprj/DSP_decodeCmdAndWDogCtrl.runs/synth_2
+# Command line: vivado.exe -log DSP_decodeCmdAndWDogCtrl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DSP_decodeCmdAndWDogCtrl.tcl
+# Log file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/xilinxprj/DSP_decodeCmdAndWDogCtrl.runs/synth_2/DSP_decodeCmdAndWDogCtrl.vds
+# Journal file: C:/top/f7/vicilab/sample_projects/applications/DSPProcFolders/DSPProc_S21/DSPProc/DSPFunctions/DSP_decodeCmdAndWDogCtrl/xilinxprj/DSP_decodeCmdAndWDogCtrl.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source DSP_decodeCmdAndWDogCtrl.tcl -notrace
